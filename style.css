@@ -277,6 +277,7 @@ background-color: transparent;
 .sessao-header{
     display: flex;
     justify-content: center;
+    
 }
 
 .sessao-header h1{
@@ -802,36 +803,40 @@ footer{
         margin-top: 3.5rem;
     }
 
-    .conhecimentos{
+    .sessao-header{
         display: flex;
-        flex-wrap: wrap;  
-                 
-    }
-
-    .sessao-conhecimentos{
-        position: relative;
-
+        justify-content: center;
+        
     }
     
-    .conhecimento-img-wraper {
-        object-fit: cover;
-        width: 30%;
-        border-radius: 10%;
-        position: absolute;
-        opacity: 20%;
-        top: 3rem;
+    .sessao-header h1{
         
-        
+        font-size: 2rem;       
+    
     }
-
-   .conhecimento-text p{
-       font-size: 1.2rem;
-       margin-left:  2rem;
-   }
-
-   .conhecimento-header{
-       margin-left: 2rem;
-   }
+    
+    
+    }
+    .conhecimento-header{
+        display:flex;
+        align-items: center;
+    }
+    
+    .conhecimento-header i{
+        font-size: 1.5rem;
+    }
+    
+    .conhecimento-header h3{
+        font-family: var(--font-secondary);
+        font-size: 1.3rem;
+        padding: 0.5rem;
+    }
+    
+    .conhecimento-text p{
+        margin-top: 0.5rem;
+        text-align: justify;
+        font-size: 1rem;
+    }
     
 
     .projetos{
@@ -843,12 +848,12 @@ footer{
 
     .card{
         width: 85%;
-        height: 60vh;
+        height: 90vh;
     }
 
     .card-info p{
 
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
        
         
@@ -881,7 +886,7 @@ footer{
     .orcamento-wrapper{
         
         width: 98%;
-        height: 80vh; 
+        height: 95vh; 
     
     }   
     .sessao-orcamento input[type="number"]{
@@ -923,7 +928,7 @@ footer{
     }
 
     #link-topo{
-       right: 4rem;
+       right: 3.9rem;
     }
 
 
