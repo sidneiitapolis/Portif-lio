@@ -12,6 +12,10 @@ btnFechar.addEventListener('click',()=>{
     hamburguer.classList.toggle('show-menu')
 })
 
+function recolhe(){
+    document.querySelector('.sidebar').classList.toggle('show-menu')
+    hamburguer.classList.toggle('show-menu')
+}
 
     let lblValor=document.querySelector('#valor')
     let js=document.querySelector('#js')

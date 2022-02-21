@@ -25,6 +25,7 @@
     scroll-behavior: smooth;
 }
 
+/* menu*/
 
 .hamburguer{
     /*background-color: rgb(230, 50, 50);*/
@@ -54,6 +55,9 @@
     box-shadow: .1rem .1rem 1px #000;
     
 }    
+
+
+/*header*/
 
 header{
     width: 100%;
