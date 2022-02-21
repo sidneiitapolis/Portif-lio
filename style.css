@@ -771,7 +771,7 @@ footer{
     }
     
     .orcamento-wrapper{
-        width: 70%;
+        width: 98%;
     }
 
     .sessao-orcamento label{
@@ -795,13 +795,21 @@ footer{
 @media (max-width: 576px){
 
     .hamburguer{
-        right:1.5rem;
+        top: 1rem;
+        right:1rem;
     }
 
-
-    .banner h1,p{
+    .banner{
+       
+        left:5%;
+        right: 5%;
+    }
+    .banner h1{
         text-align: center;
         font-size: 2rem;
+    }
+    .banner p{
+        font-size: 1.3rem;
     }
 
     .banner{
@@ -822,9 +830,6 @@ footer{
     .sessao-header h1{
         
         font-size: 1.5rem;       
-    
-    }
-    
     
     }
     .conhecimento-header{
@@ -858,7 +863,7 @@ footer{
 
     .card{
         width: 85%;
-        height: 100vh;
+        height: 90vh;
     }
 
     .card-info p{
@@ -884,10 +889,15 @@ footer{
     .contato-right label{
         display: none;
     }
+    .field{
+        font-size: 1rem;
+    }
+
    #btn-contato{
         width: 60%;
         margin-top: 3rem;
     }
+
 
     
 
@@ -896,7 +906,8 @@ footer{
     .orcamento-wrapper{
         
         width: 98%;
-        height: 95vh; 
+        height: 85vh; 
+        margin-top: 5rem;
     
     }   
     .sessao-orcamento input[type="number"]{
@@ -907,27 +918,31 @@ footer{
 
     .sessao-orcamento label{
         
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: bold;
     }
+
+
+
+
          
     footer{        
-        height: 4rem;        
+        height: 2rem;        
     }
     
     .footer-content{
         width: 60%;
         display:flex ;
-        justify-content: space-between;
+        align-items: center;
         
     }
     
     .footer-content p{       
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
     
     .social-list a{
-        margin: 0 1rem;        
+        margin: 0.2rem;        
         font-size: 0.7rem;   
     
     }
@@ -942,3 +957,4 @@ footer{
     }
 
 
+}
