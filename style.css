@@ -97,7 +97,7 @@ header{
 .banner{
     position: absolute;
     top:30%;
-    left:15%;
+    left:10%;
 }
 
 .banner h1{
@@ -223,12 +223,14 @@ background-color: transparent;
     background-color: #d3c6e0;;
 }
 
+
+/*-----------------------------------------*/
 .conhecimentos{
 
     display: grid;
     grid-template-columns: repeat(16,1fr);
     grid-template-rows: repeat(6,6rem);
-    row-gap: 1rem;
+    row-gap: 0.5rem;
     margin-top: 1rem;}
 
 .conhecimento:nth-child(1){
@@ -269,7 +271,7 @@ background-color: transparent;
 
 .sessao-conhecimentos{
     background-color: rgb(246, 238, 238);
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .sessao-header{
@@ -282,7 +284,7 @@ background-color: transparent;
     font-size: 3rem;
     color: rgb(36, 34, 34);
     border-bottom: solid 3px rgb(122, 60, 138);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -292,18 +294,18 @@ background-color: transparent;
 }
 
 .conhecimento-header i{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .conhecimento-header h3{
     font-family: var(--font-secondary);
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
 }
 
 .conhecimento-text{
     font-family: var(--font-secondary);
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     text-align: justify;
 }
 
@@ -319,6 +321,8 @@ background-color: transparent;
     width: 100%;
     border-radius: 10%;
 }
+
+/*------------------------------------------------------------*/
 
 .sessao-projetos{
     margin-top: 1rem;
@@ -654,7 +658,21 @@ footer{
 
     
 
-@media (max-width: 1286px){
+@media (max-width: 1215px){
+
+
+    .banner h1{  
+        
+        font-size: 3rem;
+        
+    }
+    
+    .banner p{
+        
+        font-size: 1.7rem;
+        
+    }  
+    
 
 
     .conhecimentos{
@@ -670,7 +688,7 @@ footer{
     
     .conhecimento-img-wraper {
         object-fit: cover;
-        width: 85%;
+        width: 30%;
         border-radius: 10%;
         position: absolute;
         opacity: 20%;
@@ -680,7 +698,8 @@ footer{
 
     .conhecimento-text p{
         font-size: 1.2rem;
-        margin-left:  4rem;
+        margin-left:  3rem;
+        margin: 1rem;
     }
  
     .conhecimento-header{
@@ -688,9 +707,48 @@ footer{
     }
 
 
-    .card{
-        width: 100%;
+    
+
+    /*-------------------------------------------------*/
+
+    .projetos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap:3rem ;
     }
+
+    .card{
+        width: 60%;
+        height: 75vh;
+    }
+
+
+ /*----------------------------------------------------------*/
+
+
+   
+
+    
+
+    .contato-wrapper{
+        width: 70%
+    }
+
+    .contato-right{
+        width:75%;
+    }
+
+    .contato-left{
+        width: 10%;
+    }
+
+   #btn-contato{
+        width: 60%;
+        margin-top: 3rem;
+    }
+
+/*-----------------------------------------------------*/
 
     .sessao-orcamento form{
         margin: 3.5rem;
@@ -701,31 +759,7 @@ footer{
     }
     
     .orcamento-wrapper{
-        width: 98%;
-    }
-
-    .projetos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap:3rem ;
-    }
-
-    .contato-wrapper{
-        width: 98%;
-    }
-
-    .contato-right{
-        width: 90%;
-    }
-
-    .contato-left{
-        width: 10%;
-    }
-
-   #btn-contato{
-        width: 60%;
-        margin-top: 3rem;
+        width: 70%;
     }
 
     .sessao-orcamento label{
@@ -749,7 +783,7 @@ footer{
 @media (max-width: 576px){
 
     .hamburguer{
-        right:4rem;
+        right:1.5rem;
     }
 
 
@@ -759,12 +793,12 @@ footer{
     }
 
     .banner{
-        left:2.5rem;
+        left:1.2rem;
     }
 
     .banner button{
         width: 80%;
-        margin-left: 3rem;
+        margin-left: 1.9rem;
         margin-top: 3.5rem;
     }
 
@@ -781,11 +815,12 @@ footer{
     
     .conhecimento-img-wraper {
         object-fit: cover;
-        width: 100%;
+        width: 30%;
         border-radius: 10%;
         position: absolute;
         opacity: 20%;
-        top: 18%;
+        top: 3rem;
+        
         
     }
 
@@ -807,8 +842,18 @@ footer{
     }
 
     .card{
-        width: 100%;
+        width: 85%;
+        height: 60vh;
     }
+
+    .card-info p{
+
+        font-size: 1rem;
+    }
+       
+        
+
+
 
     .contato-wrapper{
         width: 98%;
@@ -830,25 +875,26 @@ footer{
     }
 
     
+
+    
+
     .orcamento-wrapper{
+        
         width: 98%;
-        height: 55vh;
-       
+        height: 80vh; 
     
-    }
-    
-    
-    
-    
-    
-    
+    }   
     .sessao-orcamento input[type="number"]{
         
-        font-size: 1.5rem;
-          
-    
-    } 
+        width: 4rem;
+        font-size: 1.5rem;    
+    }
 
+    .sessao-orcamento label{
+        
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
          
     footer{        
         height: 4rem;        
@@ -881,3 +927,4 @@ footer{
     }
 
 
+}
