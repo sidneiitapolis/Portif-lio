@@ -675,6 +675,17 @@ footer{
     }  
     
 
+    .sessao-header{
+        display: flex;
+        justify-content: center;      
+    }
+    
+    .sessao-header h1{
+        
+        font-size: 2rem;       
+    
+    }
+
 
     .conhecimentos{
         display: flex;
@@ -805,13 +816,12 @@ footer{
 
     .sessao-header{
         display: flex;
-        justify-content: center;
-        
+        justify-content: center;      
     }
     
     .sessao-header h1{
         
-        font-size: 2rem;       
+        font-size: 1.5rem;       
     
     }
     
@@ -848,7 +858,7 @@ footer{
 
     .card{
         width: 85%;
-        height: 90vh;
+        height: 100vh;
     }
 
     .card-info p{
@@ -932,4 +942,3 @@ footer{
     }
 
 
-}
