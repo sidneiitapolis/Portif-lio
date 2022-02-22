@@ -922,13 +922,17 @@ footer{
         font-size: 1rem;
         font-weight: bold;
     }
-    .sessao-orcamento h1{
+
+    #cabecalho-h1{
+        top:-5rem;
+    }
+    
+
+  
         
-        top: -3.5rem;
-        left: 2rem;
         
     
-    }
+   
 
 
 
