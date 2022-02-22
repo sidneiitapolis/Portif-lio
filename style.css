@@ -925,6 +925,8 @@ footer{
 
     #cabecalho-h1{
         top:-5rem;
+        padding: 1rem;
+        font-weight: 300;
     }
     
 
@@ -938,7 +940,7 @@ footer{
 
          
     footer{        
-        height: 2.5rem;        
+        height: 2.8rem;        
     }
     
     .footer-content{
@@ -949,7 +951,7 @@ footer{
     }
     
     .footer-content p{       
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         text-align: center;
     }
     
